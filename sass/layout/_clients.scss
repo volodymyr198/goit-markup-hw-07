@@ -1,0 +1,21 @@
+.clients__title {
+    @include title;
+}
+
+.clients-list {
+    gap: 30px;
+}
+
+.clients-list__link {
+    fill: var(--icon-fill);
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--clients-border-color);
+    border-radius: 4px;
+    transition: var(--transition-border-color), var(--transition-fill);
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        border-color: var(--accent-color);
+    }
+}

@@ -1,0 +1,34 @@
+.page-footer {
+    background-color: var(--footer-hero-bg-color);
+    padding: 60px 0;
+}
+
+.page-footer__box {
+    align-items: baseline;
+}
+
+.page-footer__address-box {
+    margin-right: 70px;
+}
+
+.page-footer__join-box {
+    width: 206px;
+    margin-right: auto;
+}
+
+.join-box__sub-title,
+.subscribe-box__sub-title {
+    margin-bottom: 20px;
+}
+
+.sub-title--white {
+    color: var(--text-color);
+}
+
+.soc-networks__link--footer-dark {
+    background-color: var(--footer-bg-soc);
+}
+
+.soc-networks__icon--white {
+    fill: var(--text-color);
+}

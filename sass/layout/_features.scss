@@ -1,0 +1,25 @@
+.features__item {
+    width: 270px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.features__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: var(--our-team-bg-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.features__sub-title {
+    margin-bottom: 10px;
+}
+
+.features__description {
+    color: var(--secondary-color);
+    line-height: 1.71;
+}
