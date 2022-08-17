@@ -26,7 +26,10 @@
 
 .nav__link--current {
     color: var(--accent-color);
-    .nav__link &::after {
+}
+
+
+.nav__link.nav__link--current::after {
     position: absolute;
     bottom: 0;
     border-radius: 2px;
@@ -36,6 +39,3 @@
     background-color: var(--accent-color);
     display: block;
 }
-}
-
-
